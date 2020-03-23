@@ -10,7 +10,7 @@
         <!--Play-->
         <scene sceneID="7GY-T4-aRV">
             <objects>
-                <viewController id="tgr-bW-e2B" customClass="GameViewController" customModule="Contained" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="tgr-bW-e2B" customClass="GamesViewController" customModule="Contained" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k2J-3Q-Bvs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -30,7 +30,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Play" image="gamecontroller.fill" catalog="system" id="rtG-MQ-DuE"/>
                     <connections>
-                        <outlet property="mySkView" destination="ClV-Bb-idW" id="Iq9-sY-7YP"/>
+                        <outlet property="skview" destination="ClV-Bb-idW" id="eH5-g3-1H0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ggA-Qm-YQ3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -41,9 +41,7 @@
         <scene sceneID="vId-gu-kUX">
             <objects>
                 <viewControllerPlaceholder storyboardName="Info" referencedIdentifier="InfoNavigation" id="Tp8-oB-BUk" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Info" image="info" id="2EK-ix-HEJ">
-                        <color key="badgeColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="Info" image="info" id="2EK-ix-HEJ"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ua9-cn-kvb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

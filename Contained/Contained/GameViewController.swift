@@ -13,7 +13,7 @@ class GameViewController: UIViewController {
 
     
     
-    @IBOutlet weak var mySkView: SKView!
+
     
     
     
