@@ -70,6 +70,7 @@
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pJI-gg-xqK">
                                                 <rect key="frame" x="52.5" y="0.0" width="51" height="31"/>
                                                 <connections>
+                                                    <action selector="toggleRoll:" destination="5S7-QV-K7A" eventType="valueChanged" id="68F-OB-9zr"/>
                                                     <action selector="toggleRoll:" destination="qPg-tY-SkO" eventType="valueChanged" id="hGQ-SZ-j6w"/>
                                                 </connections>
                                             </switch>
@@ -87,6 +88,7 @@
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="o6q-aV-dNA">
                                                 <rect key="frame" x="52.5" y="0.0" width="51" height="31"/>
                                                 <connections>
+                                                    <action selector="toggleZoom:" destination="5S7-QV-K7A" eventType="valueChanged" id="A0x-of-yDJ"/>
                                                     <action selector="toggleZoom:" destination="qPg-tY-SkO" eventType="valueChanged" id="hbb-xw-9Ax"/>
                                                 </connections>
                                             </switch>
